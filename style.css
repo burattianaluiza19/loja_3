@@ -1,0 +1,143 @@
+
+
+.ok{
+    grid-area: cabeca;
+    background-color: rgb(145, 14, 49);
+}
+
+
+
+
+
+
+
+footer{
+    background-color: azure;
+    grid-area: pe;
+}
+
+@media only screen and (max-width: 850px){
+    body{
+        display:grid;
+        grid-template-areas:
+        "braco"
+        "corpo"
+        "pe";
+        grid-template-rows: 100px 500px auto 100px;
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    body{
+        display: grid;
+        grid-template-areas:
+        "cabeca"
+        "braco"
+        "corpo"
+        "pe";
+        grid-template-rows: 100px 500px 100px;
+        grid-template-columns: auto;
+
+    }
+    aside{
+        display: none;
+
+    }
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: rgb(255, 245, 213) 2px solid;
+    background-color: rgb(145, 14, 49);
+    width: 350px;
+    height: 630px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem_bege{
+    width: 320px
+}
+
+.imagem_preta{
+   width: 320px
+}
+
+.imagem_roxa{
+   width: 360px;
+}
+
+.imagem_marrom{
+   width: 320px;
+}
+
+.imagem_rosa{
+   width: 320px;
+}
+
+.imagem_branco{
+   width: 320px;
+}
+s
+.d_produto{
+    color: azure;
+    font-size: xx-large;
+}
+
+.p_produto{
+    color: rgb(255, 220, 174);
+    font-size: 40px;
+
+}
+
+.botao_produto{
+    font-size: 30px;
+    background-color: rgb(154, 180, 180);
+    width: 50%;
+    text-decoration: none;
+    height: 50%;
+    border-radius: 20px;
+    
+}
+body{
+    display:grid;
+    grid-template-areas: 
+    "cabeca cabeca"
+    "braco corpo"
+    "pe pe";
+    grid-template-rows: 300px auto 100px;
+    grid-template-columns: 400px auto;
+
+}
+
+aside{
+    background-color: rgb(131, 110, 78);
+    grid-area: braco; 
+    
+}
+
+main{
+    background-color: rgb(255, 234, 177);
+    grid-area: corpo;
+}
+
+.letra_botao{
+    display: block;
+    color: darkorange;
+    text-decoration: none;
+
+}
+
+.urso{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
