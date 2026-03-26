@@ -47,8 +47,8 @@ body{
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-    border: rgb(255, 245, 213) 2px solid;
-    background-color: rgb(145, 14, 49);
+    border: rgb(216, 189, 99) 2px solid;
+    background-color: rgb(221, 201, 135);
     width: 350px;
     height: 630px;
     border-radius: 10px;
@@ -68,14 +68,23 @@ body{
 }
 
 .p_produto{
-    color: rgb(255, 220, 174);
+    color: rgb(140, 113, 79);
     font-size: xx-large;
 
 }
 
+button{
+    background-color: purple;
+    border:20px;
+    padding: 40px;
+    color: aquamarine;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 .ok{
     grid-area: cabeca;
-    background-color: rgb(145, 14, 49);
+    background-color: rgb(60, 4, 13);
 }
 
 footer{
@@ -90,7 +99,7 @@ aside{
 }
 
 aside{
-    background-color: rgb(131, 110, 78);
+    background-color: rgb(65, 3, 13);
     grid-area: braco; 
     
 }
