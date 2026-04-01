@@ -47,8 +47,8 @@ body{
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-    border: rgb(216, 189, 99) 2px solid;
-    background-color: rgb(221, 201, 135);
+    border: rgb(255, 243, 205) 2px solid;
+    background-color: rgb(218, 193, 157);
     width: 350px;
     height: 630px;
     border-radius: 10px;
@@ -62,23 +62,26 @@ body{
     object-fit: contain;
 }
 
+
+
+
 .d_produto{
     color: black;
     font-size: xx-large;
 }
 
 .p_produto{
-    color: rgb(140, 113, 79);
+    color: rgb(78, 8, 8);
     font-size: xx-large;
 
 }
 
 button{
-    background-color: purple;
+    background-color: rgb(78,8, 8);
     border:20px;
-    padding: 40px;
-    color: aquamarine;
-    border-radius: 30px;
+    padding: 25px;
+    color: rgb(218, 193, 157);
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -92,33 +95,29 @@ footer{
     grid-area: pe;
 }
 
-aside{
-    background-color: rgb(131, 110, 78);
-    grid-area: braco; 
-    
-}
 
 aside{
-    background-color: rgb(65, 3, 13);
-    grid-area: braco; 
+    background-color: rgb(218, 193, 157);
+    grid-area: braco;
+    
     
 }
 
 main{
-    background-color: rgb(255, 234, 177);
+    background-color: rgb(252, 233, 183);
     grid-area: corpo;
 }
 
 .letra_botao{
     display: block;
-    color: darkorange;
+    color: rgb(255, 195, 121);
     text-decoration: none;
 
 }
 
 .botao_produto{
     font-size: 30px;
-    background-color: rgb(154, 180, 180);
+    background-color: rgb(230, 236, 236);
     width: 50%;
     text-decoration: none;
     height: 50%;
@@ -130,4 +129,16 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.sessao{ 
+    background-color: rgb(78, 8, 8);
+    padding: 1px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.sessao h2{
+    color: rgb(238, 207, 169);
 }
