@@ -1,0 +1,183 @@
+.foto{
+    margin: 70px;
+    justify-content: space-between;
+    height: 300px;
+}
+input{
+    width: 300px;
+}
+.ai_vou_ficar_louca{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btc{
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #4f0808;
+    border: #cfa670 2px solid;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: #dac19d;
+    display:grid;
+    grid-template-areas: 
+    "cabeca cabeca"
+    "braco corpo"
+    "pe pe";
+    grid-template-rows: 250px auto 100px;
+    grid-template-columns: 400px auto;
+
+}
+
+@media only screen and (max-width: 850px){
+    body{
+        display:grid;
+        grid-template-areas:
+        "cabeca"
+        "braco"
+        "corpo"
+        "pe";
+        grid-template-rows: 300px 100px auto 100px;
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    body{
+        display: grid;
+        grid-template-areas:
+        "cabeca"
+        "corpo"
+        "pe";
+        grid-template-rows: 300px 100px 100px;
+        grid-template-columns: auto;
+
+    }
+    aside{
+        display: none;
+
+    }
+    
+}
+
+.card{
+    display: flex;
+   
+    padding: 50px;
+    align-items: center;
+    border: #fff3cd 2px solid;
+    background-color: #dac19d;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.imagens{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.ok{
+    width: 250px;
+    height: 250px;
+}
+
+hr {
+     border: 0; 
+     height: 2px; 
+     background-color:#4f0808 ; 
+    }
+.d_produto{
+    color: black;
+    font-size: xx-large;
+}
+
+.p_produto{
+    color: #4f0808;
+    font-size: xx-large;
+
+}
+
+button{
+    background-color: rgb(78,8, 8);
+    border:20px;
+    padding: 25px;
+    color: rgb(218, 193, 157);
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    grid-area: cabeca;
+    background-color: #520e1a;
+}
+
+footer{
+    background-color: #520e1a;
+    grid-area: pe;
+}
+
+
+aside{
+    background-color: rgb(218, 193, 157);
+    grid-area: braco;
+    text-align: center;
+    
+    
+}
+.aside{
+    color: antiquewhite;
+    background-color: #520e1a;
+     border-radius: 10px;
+     font-size: 40px;
+
+}
+
+main{
+    background-color: rgb(252, 233, 183);
+    grid-area: corpo;
+}
+
+.letra_botao{
+    display: block;
+    color: rgb(255, 195, 121);
+    text-decoration: none;
+
+}
+
+.botao_produto{
+    font-size: 30px;
+    background-color: rgb(230, 236, 236);
+    width: 50%;
+    text-decoration: none;
+    height: 50%;
+    border-radius: 20px;
+    
+}
+
+.urso{
+    align-items: center;
+    
+}
+
+.sessao{ 
+    background-color: rgb(78, 8, 8);
+    padding: 1px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.sessao h2{
+    color: rgb(238, 207, 169);
+}
